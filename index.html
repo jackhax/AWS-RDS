@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>RDS Project</title>
+</head>
+<body>
+	<h3>Query</h3>
+	<formform ="Login_form" onsubmit="submit_form()">  
+	USN &nbsp&nbsp&nbsp
+	<input type="text" placeholder="USN" id="usn"/> <br><br>
+	Name  &nbsp
+	<input type="text" placeholder="Name" id="nam"/></br></br>  
+	CGPA  &nbsp
+	<input type="text" placeholder="CGPA" id = "cgpa"/>
+	<input type="radio" id="equal_to" name="cgpa" value="="><label for="equal_to">Equal to</label>
+	<input type="radio" id="less_than" name="cgpa" value="<"><label for="less_than">Less than</label>
+	<input type="radio" id="greater_than" name="cgpa" value=">"><label for="greater_than">Greater than</label><br><br>
+	
+
+	<input type="submit" value="Get" onclick="submit_form()" />  
+	</form>  
+</body>
+<script src="index.js"></script>
+</html>
