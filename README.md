@@ -1,7 +1,7 @@
 #### AWS-RDS
-This is an educationa project.
+This is an educational project.
 
-####Technologies used:
+#### Technologies used:
 1. AWS RDS running MySQL
 2. AWS LAMBDA
 3. AWS API Gateway
